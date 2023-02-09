@@ -33,7 +33,7 @@ function getMinimal(userNumber1, userNumber2, userNumber3) {
         console.log(`${userNumber3} наибольшее число`);
     }
         
-}
+    }
 }
 getMinimal(userNumber1 = Number(prompt('Введите первое число')),
  userNumber2 = Number(prompt('Введите второе число')), 

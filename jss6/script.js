@@ -1,29 +1,14 @@
-const linkEl = document.querySelector('#super_link');
-console.log(linkEl);
+// 1. Ко всем элементам, имеющим класс "dropdown-item" добавить еще один класс "super-dropdown",
+//  необходимо использовать методы forEach и querySelectorAll и свойство classList у элементов.
 
-const cardEl = document.querySelectorAll('.card-link');
-cardEl.forEach(element => {
-    element.textContent = 'ссылка';
-});
+// 2. У элемента с классом btn необходимо убрать класс "btn-secondary",
+//  если он присутствует у этого элемента, либо добавить, если такого класса у элемента не было.
 
-const cardbodyEl = document.querySelector('.card-body');
-const cardLinkEl = cardbodyEl.querySelectorAll('.card-link');
-console.log(cardLinkEl);
+// 3. Необходимо удалить класс "dropdown-menu" у элемента, у которого присутствует класс "menu".
 
-const dataEl = document.querySelector("[data-number='50']");
-console.log(dataEl);
+// 4. У элемента с id "dropdownMenuButton" замените id на "superDropdown".
 
-const titleEl = document.querySelector('title');
-const textEl = titleEl.textContent
-console.log(textEl);
+// 5. Добавьте атрибут data-dd со значением 3 элементу 
+// у которого существует атрибут "aria-labelledby" равный "dropdownMenuButton" используя dataset.
 
-const cardTitleEl = document.querySelector('.card-title');
-console.log(cardTitleEl.parentNode);
-
-const paragrphEl = document.createElement('p');
-paragrphEl.textContent = 'Привет';
-const cardclassEl = document.querySelector('.card');
-cardclassEl.prepend(paragrphEl);
-
-const delEL = document.querySelector('h6');
-delEL.remove();
+// 6. Удалите атрибут type у элемента с классом "dropdown-toggle".

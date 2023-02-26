@@ -34,11 +34,15 @@ productsData.forEach(dataProducts => {
 
 });
 
+const lupaEl = document.querySelector('.lupa')
+lupaEl.onclick = createElement('input') 
+
 const style = `
 *{
     margin: 0;
     padding: 0;
 }
+
 .product{
     display: grid;
     grid-template-columns: repeat(3, 360px);

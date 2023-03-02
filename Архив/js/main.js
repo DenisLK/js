@@ -1,4 +1,4 @@
-document.querySelector(".form__auth-btn").onclick = function () {
+document.querySelector(".form_auth2").oninput = function () {
   const userPassFirst = document.querySelector("#password1").value;
   const userPassSecond = document.querySelector("#password2").value;
 

@@ -660,8 +660,50 @@ body {
   background-color: #fff;
 }
 @media (min-width: 300px) and (max-width: 350px) {
+.menu{
+  display: none;
+}
+.sign__up-btn{
+  display: none;
+}
+.header__logo{
+  width: 140px;
+}
+.header__top{
+  padding-left: 0px;
+  padding-top: 10px;
+}
+.header__row{
+  overflow-x: auto;
+  flex-direction: column-reverse;
+  padding-top: 40px;
+}
+.header__img{
+  margin: 0;
+  width: 280px;
+}
+.header__img img {
+  border-radius: 0;
+}
+.header__img::before{
+  display: none;
+}
+.header__title{
+  font-size: 26px;
+}
+.header__text{
+  margin-bottom: 0;
+}
+.header__content{
+  width: 280px;
+  margin-top: 25px;
+}
+.btn--red{
+  margin-left: 20px;
+}
 .main{
   padding-top: 0;
+  padding-bottom: 0;
 }
 .features__text{
   margin-bottom: 40px;
@@ -686,6 +728,9 @@ body {
 .features__top {
   text-align: start;
 }
+.features {
+  padding-bottom: 70px;
+}
 .automated__row {
   display: flex;
   flex-direction: column;
@@ -701,5 +746,83 @@ body {
 }
 .text{
   font-size: 14px;
+}
+.price__card {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  overflow-x: clip;
+}
+.card__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card{
+  text-align: center;
+  height: 358px;
+  width: 280px;
+  background-color: #fff;
+  
+}
+.card__text {
+  font-size: 13px;
+  padding-bottom: 30px;
+}
+.card_title{
+  font-size: 25px;
+}
+.card__inner-cost {
+  font-size: 30px;
+}
+.card__inner-descr {
+  font-size: 13px;
+}
+.automated{
+  padding-bottom: 0;
+}
+.automated__row + .automated__row {
+  margin-top: 60px;
+}
+.price{
+  height: 950px;
+}
+.price__top{
+  text-align: start;
+  padding-bottom: 60px;
+}
+.price__top>p{
+  width: 300px;
+}
+.companies__column{
+  width: 320px;
+  height: 420px;
+}
+.companies__column--mini-size{
+  display: none;
+}
+.companies__column-inner {
+ padding: 0;
+ width: 280px;
+ left: 20px;
+}
+.companies__stars-title {
+ margin: 0;
+}
+.rating-area{
+  width: 220px;
+}
+.footer__menu{
+  display: none;
+}
+.footer__social-list{
+  width: 130px;
+}
+.footer__social-item + .footer__social-item{
+  margin-left: 0;
+}
+.footer__row{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 }

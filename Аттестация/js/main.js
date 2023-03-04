@@ -16,3 +16,4 @@ document.querySelector(".form_auth2").oninput = function () {
   return true;
 };
 
+

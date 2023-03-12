@@ -16,4 +16,14 @@ document.querySelector(".form_auth2").oninput = function () {
   return true;
 };
 
+const gambEl = document.querySelector('.gamb');
+const menuEl = document.querySelector('.menu');
+
+
+
+
+gambEl.addEventListener('click', function(){
+  gambEl.classList.toggle('active')
+  menuEl.classList.toggle('menu_active')
+})
 
